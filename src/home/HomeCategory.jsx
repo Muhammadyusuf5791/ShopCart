@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom"; // ✅ `Link` import qilindi
-import img01 from "../assets/images/category/01.jpg"; // ✅ Rasmni to‘g‘ri import qilish
+import { Link } from "react-router-dom";
+import img01 from "../assets/images/category/01.jpg";
 import img02 from "../assets/images/category/02.jpg";
 import img03 from "../assets/images/category/03.jpg";
 import img04 from "../assets/images/category/04.jpg";
@@ -9,6 +9,7 @@ import img06 from "../assets/images/category/06.jpg";
 
 const subTitle = "Choose Any Products";
 const title = "Buy Everything with Us";
+const btnText = "Get Started Now";
 
 const categoryList = [
   {
@@ -73,12 +74,19 @@ const HomeCategory = () => {
                       <div className="cate-icon">
                         <i className={category.iconName}></i>
                       </div>
-                      <Link to="/shop"><h6>{category.title}</h6></Link>
+                      <h6>{category.title}</h6> {/* Link olib tashlandi */}
                     </div>
                   </div>
                 </Link>
               </div>
             ))}
+          </div>
+
+          {/* btn get started */}
+          <div className="text-center mt-5">
+            <Link to="/shop" className="lab-btn">
+              <span>{btnText}</span>
+            </Link>
           </div>
         </div>
       </div>
