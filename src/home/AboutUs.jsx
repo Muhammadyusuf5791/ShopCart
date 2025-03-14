@@ -53,7 +53,9 @@ const AboutUs = () => {
                 </div>
 
                 <div className='col'>
-                  
+                  <div className='instructor-content'>
+                    <p>{subTitle}</p>
+                  </div>
                 </div>
             </div>
         </div>
