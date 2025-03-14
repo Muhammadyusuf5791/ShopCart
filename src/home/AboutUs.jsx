@@ -40,12 +40,20 @@ const AboutUs = () => {
                                     <i className={val.iconName}></i>
                                 </div>
                                 <div className='count-content'>
-                                    <h2><span><CountUp end={100} /></span></h2>
+                                    <h2>
+                                      <span className='count'><CountUp end={val.count} /></span>
+                                    <span>+</span>
+                                    </h2>
+                                    <p>{val.text}</p>
                                 </div>
                                </div>
                             </div>
                         ))
                     }
+                </div>
+
+                <div className='col'>
+                  
                 </div>
             </div>
         </div>
