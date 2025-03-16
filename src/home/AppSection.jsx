@@ -10,6 +10,8 @@ const AppSection = () => {
       <div className='container'>
         <div className='section-header text-center'>
             <Link to="/sign-up" className='lab-btn mb-4'>{btnText}</Link>
+            <h2 className='title'>{title}</h2>
+            <p>{desc}</p>
         </div>
       </div>
     </div>
