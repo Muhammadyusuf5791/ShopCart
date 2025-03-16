@@ -13,6 +13,12 @@ const AppSection = () => {
             <h2 className='title'>{title}</h2>
             <p>{desc}</p>
         </div>
+
+        <div className='section-wrapper'>
+            <ul className='lab-ul'>
+                
+            </ul>
+        </div>
       </div>
     </div>
   )
