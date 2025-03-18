@@ -25,7 +25,9 @@ const Sponsor = () => {
   return (
     <div className='sponsor-section section-bg'>
       <div className='container'>
-        <div className='section-wrapper'></div>
+        <div className='section-wrapper'>
+          <div className='sponsor-slider'></div>
+        </div>
       </div>
     </div>
   )
