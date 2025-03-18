@@ -24,7 +24,9 @@ const sponsorList = [
 const Sponsor = () => {
   return (
     <div className='sponsor-section section-bg'>
-      <div className='container'></div>
+      <div className='container'>
+        <div className='section-wrapper'></div>
+      </div>
     </div>
   )
 }
