@@ -23,7 +23,7 @@ const sponsorList = [
 
 const Sponsor = () => {
   return (
-    <div>
+    <div className='sponsor-section section-bg'>
       
     </div>
   )
