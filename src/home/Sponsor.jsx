@@ -54,7 +54,7 @@ const Sponsor = () => {
                   spaceBetween: 40,
                 },
                 1024: {
-                  slidesPerView: 4,
+                  slidesPerView: 5,
                   spaceBetween: 50,
                 },
               }}
