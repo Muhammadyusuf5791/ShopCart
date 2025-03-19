@@ -67,7 +67,9 @@ const Sponsor = () => {
           sponsorList.map((val, i) => (
             <SwiperSlide key={i}>
               <div className='sponsor-iten'>
-                <div className='sponsor-thumb'></div>
+                <div className='sponsor-thumb'>
+                  <img src={val.imgUrl} alt="" />
+                </div>
               </div>
             </SwiperSlide>
           ))
