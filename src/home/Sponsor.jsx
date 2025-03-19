@@ -63,6 +63,13 @@ const Sponsor = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
+        {
+          sponsorList.map((val, i) => (
+            <SwiperSlide key={i}>
+              <div className='sponsor-item'></div>
+            </SwiperSlide>
+          ))
+        }
       </Swiper>
           </div>
         </div>
