@@ -8,7 +8,7 @@ const ShopCategory = ({ filterItem, menuItems, selectedCategory }) => {
         <h5 className='ms-5'>All Categories</h5>
       </div>
       <div>
-        <button onClick={() => setProducts(Data)} className={`m-2 ${selectedCategory === "All" ? "bg-warning" : ""}`}>All</button>
+        <button onClick={() => setProducts(Data)} className={`m-2 ${selectedCategory === 'All' ? "bg-warning" : ""}`}>All</button>
         {
           menuItems.map((Val, id) => {
             return (
